@@ -30,43 +30,12 @@
     "type": "git",
     "url": "https://github.com/gre/react-native-view-shot.git"
   },
-  "scripts": {
-    "test": "jest",
-    "lint": "eslint .",
-    "lint:ci": "eslint . --max-warnings 0",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "type-check": "tsc --noEmit",
-    "build": "tsc",
-    "prepare": "npm run build"
-  },
   "dependencies": {
     "html2canvas": "^1.4.1"
   },
   "peerDependencies": {
     "react": ">=18.0.0",
     "react-native": ">=0.76.0"
-  },
-  "devDependencies": {
-    "@babel/preset-env": "^7.28.3",
-    "@babel/preset-react": "^7.27.1",
-    "@eslint/js": "^10",
-    "@types/jest": "^30.0.0",
-    "@types/react": "^19.1.1",
-    "@types/react-test-renderer": "^19.1.0",
-    "babel-jest": "^30.2.0",
-    "eslint": "^9.17.0",
-    "eslint-config-prettier": "^9.1.2",
-    "html-webpack-plugin": "^5.6.0",
-    "jest": "^30.3.0",
-    "jest-environment-jsdom": "^30.3.0",
-    "prettier": "^3.4.2",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
-    "react-native": "^0.84.1",
-    "react-test-renderer": "^19.2.4",
-    "ts-jest": "^29.4.6",
-    "typescript": "^5.8.3"
   },
   "engines": {
     "node": ">=20.19.4",
@@ -80,5 +49,29 @@
       "javaPackageName": "fr.greweb.reactnativeviewshot"
     }
   },
-  "stableVersion": "4.0.2"
+  "files": [
+    "src",
+    "lib",
+    "android",
+    "ios",
+    "windows",
+    "react-native.config.cjs",
+    "react-native-view-shot.podspec",
+    "README.md",
+    "LICENSE"
+  ],
+  "songstatsSourceAudit": {
+    "releaseBase": "5.1.1",
+    "releaseCommit": "b92795723f4aba2538d10b121f872493bd1c7d2e",
+    "upstreamBase": "6acbec50a5e3cab7d668711d757c52cfdc791c76",
+    "excludedDraft": "https://github.com/gre/react-native-view-shot/pull/683",
+    "runtimePullRequests": [
+      "https://github.com/gre/react-native-view-shot/pull/678",
+      "https://github.com/gre/react-native-view-shot/pull/679",
+      "https://github.com/gre/react-native-view-shot/pull/680",
+      "https://github.com/gre/react-native-view-shot/pull/681",
+      "https://github.com/gre/react-native-view-shot/pull/682",
+      "https://github.com/gre/react-native-view-shot/pull/691"
+    ]
+  }
 }
